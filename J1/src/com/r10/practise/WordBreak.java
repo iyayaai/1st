@@ -34,9 +34,9 @@ public class WordBreak {
 	public static void main(String[] args) {
 		WordBreak wb = new WordBreak();
 		
-		String s = "ÎÒÌ«Ï²»¶Äã";
+		String s = "ä½ æƒ³æ‹‰å±ä¸";
 		Set<String> dict = new HashSet<>();
-		String[] strs = {"ÎÒ", "Äã", "²»", "Ï²»¶", "À­Êº", "Ïë", "ÌØ"};
+		String[] strs = {"æˆ‘", "ä½ ", "ä¸", "å–œæ¬¢", "æ‹‰å±", "æƒ³", "ç‰¹"};
 		for (String ss : strs) {
 			dict.add(ss);
 		}

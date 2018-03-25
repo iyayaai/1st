@@ -1,5 +1,7 @@
 package com.r10.practise;
 
+
+
 public class Graph1 {
 	int sum;
 	int n;

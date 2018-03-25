@@ -27,7 +27,7 @@ public class HttpPlay {
 			byte[] buffer = new byte[1024];
 			int len = 0;
 			while((len = is.read(buffer)) != -1) {
-//				fos.write(buffer);			//得到的内容不完整
+//				fos.write(buffer);			//寰楀埌鐨勫唴瀹逛笉瀹屾暣
 				System.out.println(len);
 				fos.write(buffer, 0, len);
 			}
