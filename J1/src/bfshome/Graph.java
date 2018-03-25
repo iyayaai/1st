@@ -13,7 +13,7 @@ public class Graph {
 	private String firstVertex;
 	HashMap<String, List<String>> adj = new HashMap<>();
 	
-	
+	// getter, setter
 	public List<String> getVertexAll() {
 		return vertexAll;
 	}
